@@ -1,0 +1,237 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* */
+body{
+    max-width: 100vw;
+    background-color: rgb(240, 238, 238);
+    padding: 0 10px;
+    font-family: inter;
+}
+header{
+    color: white;
+    background-color: #3c94f8;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1.title{
+    font-size: 130px;
+}
+.break{
+    position: relative;
+    margin-bottom: 15px;
+}
+hr{
+    border: none;
+    border-top: 1px solid #d8d2d2;
+}
+.break-icons{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -1.4%;
+    justify-content: center;
+    gap: 50px;
+}
+.top-down{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motto{
+    text-align: center;
+}
+.features{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #e7e5e5;
+}
+.features > div{
+    position: relative;
+    transform: translateY(-30%);
+    background-color: #fff;
+    width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+}
+h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+p{
+    line-height: 25px;
+}
+.About{
+    display: flex;
+    background-color: #fff;
+    padding: 0 ;
+}
+.About > div {
+    flex:1;
+}
+.text-left{
+    padding: 45px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text-left p{
+    max-width: 80%;
+}
+button{
+    height: 40px;
+    width: 170px;
+    border: none;
+    background-color: #3c94f8;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+.text-right{
+    background-color: #3c94f8;
+    color: #fff;
+    padding: 150px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.testimonies{
+    background-color: #fff;
+    padding-top: 70px;
+}
+.header-testimonies{
+    background-color: #3c94f8;
+    color: #fff;
+    padding: 50px 0 100px 0 ;
+}
+.header-testimonies h1{
+    margin: auto;
+    width:max-content;
+}
+.content-testimonies {
+    transform: translateY(-10%);
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content-testimonies > div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.content-testimonies > div > div{
+    width: 270px;
+    height: 310px;
+}
+.content-testimonies img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p.name , p.label{
+    font-weight: 600;
+}
+
+.header-statistics{
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-statistics h2{
+    font-weight: 500;
+    order: -1;
+}
+.header-statistics p{
+    max-width: 800px;
+    text-align: center;
+    margin-top: 30px;
+}
+.illustrations-statistics{
+    background-color: #fff;
+    display: flex;
+    padding: 50px 85px;
+}
+.image-earth{
+    width: 500px;
+    height: 500px;
+}
+.image-earth img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-description{
+    background-color: #3c94f8;
+    color: #fff;
+    font-weight: 700;
+    width: 320px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    margin-top:-120px;
+    margin-left: -80px;
+}
+.numbers{
+    padding-top: 100px;
+    padding-left: 20px;
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.numbers h1{
+    font-weight: 600;
+    font-size: 70px;
+}
+.numbers p{
+    color: #c9c4c4;
+}
+.numbers > div{
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.numbers > div:nth-child(1), .numbers > div:nth-child(4) {
+    background-color: #e9e7e7;
+}
